@@ -4,6 +4,56 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zUwx78tRkkIHcFKczHAA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zUwx78tRkkIHcFKczHAA-2" target="zUwx78tRkkIHcFKczHAA-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-2" value="硬件采集层" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-3" value="传感器" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-4" value="车辆采集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-5" value="环境采集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-6" value="现场" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zUwx78tRkkIHcFKczHAA-8" target="zUwx78tRkkIHcFKczHAA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-8" value="珠峰露天专家系统web层/手机app层" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-14" value="web系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="364" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-15" value="手机app" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="459" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zUwx78tRkkIHcFKczHAA-20" target="zUwx78tRkkIHcFKczHAA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zUwx78tRkkIHcFKczHAA-20" target="zUwx78tRkkIHcFKczHAA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-20" value="IOT服务层,业务服务层" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-23" value="postgres数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-25" value="消息中间件:kafka/rabbitmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zUwx78tRkkIHcFKczHAA-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="305" width="50" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
