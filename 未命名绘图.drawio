@@ -48,7 +48,7 @@
         <mxCell id="zUwx78tRkkIHcFKczHAA-23" value="postgres数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="480" y="370" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zUwx78tRkkIHcFKczHAA-25" value="消息中间件:kafka/rabbitmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zUwx78tRkkIHcFKczHAA-25" value="消息平台:kafka/rabbitmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="480" y="210" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zUwx78tRkkIHcFKczHAA-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
